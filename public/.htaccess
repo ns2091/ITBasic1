@@ -1,0 +1,4 @@
+AuthType Digest
+AuthName "report"
+AuthUserFile /home/s22669kh/DigestAuth/password
+Require user admin

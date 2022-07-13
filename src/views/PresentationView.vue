@@ -1,7 +1,7 @@
 <template>
-  <v-img src="../assets/background_thinking.png">
+<!--  <v-img src="../assets/background_thinking.png">-->
     <HowToGitHubCopilot></HowToGitHubCopilot>
-  </v-img>
+<!--  </v-img>-->
 </template>
 
 <script>
