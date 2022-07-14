@@ -112,8 +112,8 @@
           GitHub Copilotのしくみ
         </v-card-title>
         <v-divider></v-divider>
-<!--        <div id="" class="reveal">-->
-        <div>
+        <div id="" class="reveal">
+<!--        <div>-->
           <v-card-text class="headline">
             <p class="text-h2 font-weight-bold ">GitHubにある</p>
             <p class="text-h2 font-weight-bold text-center">膨大なプログラムを学習して予測</p>
@@ -153,7 +153,7 @@ export default {
       for (let i = 0; i < reveals.length; i++) {
         const windowHeight = window.innerHeight;
         const elTop = reveals[i].getBoundingClientRect().top;
-        const elVisible = 150;
+        const elVisible = 500;
         if (elTop < windowHeight - elVisible) {
           reveals[i].classList.add("active");
         } else {
@@ -166,7 +166,7 @@ export default {
       // for (const elem in elems){
       //   elem.addEventListener("click", this.reveal)
       // }
-      window.addEventListener("click", this.reveal)
+      window.addEventListener("scroll", this.reveal)
     }
   },
   mounted: function(){
