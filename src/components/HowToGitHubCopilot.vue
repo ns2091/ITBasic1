@@ -1,14 +1,14 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="8">
+      <v-col cols="12" xl="8">
         <v-card-title class="text-h2 font-weight-bold">
           GitHub Copilotとは
         </v-card-title>
         <v-divider></v-divider>
         <div id="" class="reveal">
           <v-card-text class="headline">
-            <v-img src="../assets/image_AI.png" width="800" class="mx-auto"></v-img>
+            <v-img src="../assets/image_AI.png" width="700" class="mx-auto"></v-img>
             <p class="text-h2 font-weight-bold text-center">によるプログラム自動補完サービス</p>
 
             <v-row justify="center">
@@ -24,7 +24,7 @@
       </v-col>
 
 
-      <v-col cols="8">
+      <v-col cols="12" xl="8">
         <v-card-title class="text-h2 font-weight-bold">
           あくまでも助手
         </v-card-title>
@@ -49,26 +49,30 @@
                 class="rounded-xl rounded-tl-0 ml-8 mx-auto transition-swing pa-3"
                 elevation="12"
                 height="128"
-                width="115%"
+                width="100%"
             >
-              <p class="text-h4 font-weight-bold text-justify mb-0">
-                More productive, reduce manual tasks, and help them focus on interesting work.<br/>
-                (より生産的になり、手作業を減らし、おもしろい仕事に焦点を絞ります。)
-              </p>
-              <span class="subtitle-1">
+              <span class="text-h5 font-weight-bold text-justify mb-0">
+                <p class="text-h5 ma-0">
+                  More productive, reduce manual tasks, and help them focus on interesting work.
+                </p>
+                <p class="ma-0">
+                  (より生産的になり、手作業を減らし、おもしろい仕事に焦点を絞ります。)
+                </p>
+              </span>
+              <span class="subtitle-1 ma-0">
                 <a href="https://github.com/features/copilot">https://github.com/features/copilot</a>
                 “How will advanced code generation tools like GitHub Copilot affect developer jobs?” から引用(一部抜粋)
               </span>
             </v-sheet>
-            <v-divider class="py-8"></v-divider>
-            <p class="text-h2 font-weight-bold text-center"><span class="text-h1 font-weight-bold red--text">今年6月</span>に正式サービス開始</p>
+<!--            <v-divider class="py-8"></v-divider>-->
+<!--            <p class="text-h2 font-weight-bold text-center"><span class="text-h1 font-weight-bold red&#45;&#45;text">今年6月</span>に正式サービス開始</p>-->
 
           </v-card-text>
         </div>
       </v-col>
 
 
-      <v-col cols="8">
+      <v-col cols="12" xl="8">
         <v-card-title class="text-h2 font-weight-bold">
           GitHubとは
         </v-card-title>
@@ -95,7 +99,7 @@
                 </v-container>
               </v-col>
               <v-col class="pa-0 ma-0 mb-5">
-                <v-img src="../assets/muryou.png" width="auto" class="text-h4 pa-0 ma-0">もちろん…</v-img>
+                <v-img src="../assets/muryou.png" width="500" class="text-h4 pa-0 ma-0">もちろん…</v-img>
               </v-col>
             </v-row>
           </v-card-text>
@@ -103,7 +107,7 @@
       </v-col>
 
 
-      <v-col cols="8">
+      <v-col cols="12" xl="8">
         <v-card-title class="text-h2 font-weight-bold">
           GitHub Copilotのしくみ
         </v-card-title>
@@ -114,7 +118,7 @@
             <p class="text-h2 font-weight-bold ">GitHubにある</p>
             <p class="text-h2 font-weight-bold text-center">膨大なプログラムを学習して予測</p>
 
-            <v-img src="../assets/GPT-3_1.png"></v-img>
+            <v-img src="../assets/GPT-3_1.png" width="1000"></v-img>
             <a href="https://www.nri.com/jp/knowledge/glossary/lst/alphabet/gpt_3">
               野村総合研究所 "GPT-3とは"</a>から引用
           </v-card-text>
